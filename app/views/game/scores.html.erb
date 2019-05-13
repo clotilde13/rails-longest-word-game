@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1>Result</h1>
+    <p id="result"><%= @result %></p>
+    <p id='global_score'>Your gobal score is <%= cookies[:user_score] %></p>
+    <%= link_to "Play again", "new", :id=>"back" %>
+  </div>
+</body>
+</html>
+
+
+

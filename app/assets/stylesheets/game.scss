@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display|Titillium+Web:400,700);
+
+h1, p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  background-color: #74A57F;
+  color: white;
+  padding: 4px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+div {
+  margin-left: 32px;
+}
+
+input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-style: none;
+  border: 1px solid #A0A0A0;
+}
+
+span {
+  font-weight: bold;
+  color: #74A57F;
+}
+
+#submit {
+  border: none;
+  background-color: #74A57F;
+  color: white;
+}
+
+#back {
+  text-decoration: none;
+  border: none;
+  background-color: #74A57F;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+#global_score {
+  margin-top : 20px;
+  color: #74A57F;
+}
+
